@@ -1,0 +1,14 @@
+@relation Student
+
+@attribute rno numeric
+@attribute name string
+@attribute exam { Pass, Fail }
+@attribute dept { cse, it, eee, ece }
+@attribute age numeric
+
+@data
+22, rada, Pass, ece, 20
+15, ravi, Pass, it, 21
+16, madhu, Pass, cse, 22
+20, sri, Pass, eee, 23
+18, mahi, Fail, cse, 19
